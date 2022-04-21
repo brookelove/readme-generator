@@ -1,7 +1,7 @@
 ## ${reponame}
 
 [![License](https://img.shields.io/badge/MIT-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
-[![License](https://img.shields.io/badge/License-${licence}-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
+[![License](https://img.shields.io/badge/License-${liscence}-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
 Table of Contents
 
 1. [Description](#descript)

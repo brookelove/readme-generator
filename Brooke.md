@@ -1,7 +1,7 @@
 
 ## Brooke
     
-[![License](https://img.shields.io/badge/License-${licence}-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
+[![License](https://img.shields.io/badge/License-MIT License-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
     
 ## Table of Contents
 1. [Description](#descript)
@@ -14,18 +14,18 @@
 8. [Questions](#questions)
     
 # Description
-    generating a readme
+    making a repo
 
 # Motivation
-    generate a read me
+    to make a rep faster
 
 # Install Instructions
-    node and terminal
+    node terminal
 
 # Usage
-    generating a read me
+    to generate a repo
 # License
-[MIT License](./LICENSE/MITLicense)
+[MIT License](./LICENSE)
 
 # Contributors
     me
@@ -34,5 +34,5 @@
     none
     
 # Questions? Feel Free to reach me at!
-brookelovedevelops@outlook.com |
+brookelovedevelops@outlook.com | 
 [github.com](https://github.com/brookelove)
