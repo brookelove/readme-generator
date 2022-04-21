@@ -50,7 +50,8 @@ const fs = require('fs');
         },
         {
             type: 'list',
-            message: 'Which liscence did you get from github?',
+            message: 'Which licence did you get from github?',
+            name: 'license',
             choices: ['Apache License 2.0', 'GNU General Public License v3.0', 'MIT License', 'BSD 2-Clause "Simplified" License', 'BSD 3-Clause "New" or "Revised" License', 'Boost Software Liscense 1.0', 'Creative Commons Zero v1.0', 'Eclipse Public License 2.0', 'GNU Affero General Public License v3.0', 'GNU General Public License v2.0', 'GNU Lesser General Public License v2.1', 'Mozilla Public License', 'The Unilicense'],
         },
         {
@@ -74,3 +75,66 @@ const fs = require('fs');
             name: 'email',
         }
     ])
+    .then (function ({reponame, description, motivation, install, usage, name, contributors, tests, github, email, license}) {
+    console.log(reponame, description, motivation, install, usage, name, contributors, tests, github, email, license)
+    let readme = `## ${reponame}
+
+    ---
+    
+    ![]()
+    
+    **Table of Contents**
+    
+    1. [Description](#descript)
+    
+    2. [Motivation](#motivation)
+    
+    3. [Installation Instructions](#installation-instructions)
+    
+    4. [Usage](#usage)
+    
+    5. [Liscense](#license)
+    
+    6. [Contributors](#contributors)
+    
+    7. [Test](#tests)
+    
+    8. [Questions](#questions)
+    
+    # Description
+    
+    > ${description}
+    
+    # Motivation
+    
+    * ${motivation}
+    
+    # Install Instructions
+    
+    * ${install}
+    
+    # Usage
+    
+    * ${usage}
+    
+    # License
+    
+    * ${license}
+    
+    # Contributors
+    
+    * ${contributors}
+    
+    # Tests
+    
+    * ${tests}
+    
+    # Questions
+    
+    If you have any questions do not heasitate to reach out!
+    
+    * ${email}
+    
+    * ${github}`
+    fs.writeFileSync(`./${reponame}.md`, readme)
+    })

@@ -1,6 +1,5 @@
 ## ${reponame}
 
----
 
 ![]()
 
@@ -40,7 +39,7 @@
 
 # License
 
-* ${notice}
+* ${license}
 
 # Contributors
 
@@ -54,6 +53,6 @@
 
 If you have any questions do not heasitate to reach out!
 
-* ${email} 
+* ${email}
 
 * ${github}
