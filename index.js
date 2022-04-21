@@ -77,44 +77,62 @@ const fs = require('fs');
     ])
     .then (function ({reponame, description, motivation, install, usage, name, contributors, tests, github, email, license}) {
     console.log(reponame, description, motivation, install, usage, name, contributors, tests, github, email, license)
-    
+    //remove spaces from this badge so it can generate a page onload
     let readme = `
 ## ${reponame}
-    
+
 [![License](https://img.shields.io/badge/License-${license}-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
-    
+
 ## Table of Contents
+
 1. [Description](#descript)
+
 2. [Motivation](#motivation)
+
 3. [Installation Instructions](#installation-instructions)
+
 4. [Usage](#usage)
+
 5. [Liscense](#license)
+
 6. [Contributors](#contributors)
+
 7. [Test](#tests)
+
 8. [Questions](#questions)
-    
+
 # Description
+
     ${description}
 
 # Motivation
+
     ${motivation}
 
 # Install Instructions
+
     ${install}
 
 # Usage
+
     ${usage}
+
 # License
+
 [${license}](./LICENSE)
 
 # Contributors
+
     ${contributors}
-    
+
 # Tests
+
     ${tests}
-    
+
 # Questions? Feel Free to reach me at!
+
 ${email} | 
+
 [github.com](https://github.com/${github})`
 
     fs.writeFileSync(`${reponame}.md`, readme)
