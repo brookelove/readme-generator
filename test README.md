@@ -1,21 +1,53 @@
 ## ${reponame}
 
-# Desciption
+**Table of Contents**
 
-${descriptioncontent}
+1. [Description](#descript)
 
-# Table of Contents
+2. [Motivation]($motivation)
 
-* Description
+2. [Installation Instructions](#installation-instructions)
 
-* Installation
+3. [Usage](#usage)
 
-* Usage
+4. [Liscense](#liscense)
 
-* Liscense
+5. [Contributors](#contributors)
 
-* Contributors
+6. [Test](#test)
 
-* Test
+7. [Questions](#questions)
 
-* Questions
+# Description
+
+> ${description}
+
+# Motivation
+
+* ${motivation}
+
+# Install Instructions
+
+* ${install}
+
+# Usage
+
+* ${usage}
+
+# Liscense
+
+* ${liscense}
+
+# Contributors
+
+* ${contributors}
+
+# Test
+
+* ${test}
+
+# Questions
+
+If you have any questions do not heasitate to ask!
+
+* ${questions}
