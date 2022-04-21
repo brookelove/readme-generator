@@ -1,57 +1,38 @@
-## ${reponame}
 
-[![License](https://img.shields.io/badge/MIT-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
+## Brooke
+    
 [![License](https://img.shields.io/badge/License-${licence}-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
-Table of Contents
-
+    
+## Table of Contents
 1. [Description](#descript)
-
 2. [Motivation](#motivation)
-
 3. [Installation Instructions](#installation-instructions)
-
 4. [Usage](#usage)
-
 5. [Liscense](#license)
-
 6. [Contributors](#contributors)
-
 7. [Test](#tests)
-
 8. [Questions](#questions)
-
+    
 # Description
-
-> ${description}
+    generating a readme
 
 # Motivation
-
-* ${motivation}
+    generate a read me
 
 # Install Instructions
-
-* ${install}
+    node and terminal
 
 # Usage
-
-* ${usage}
-
+    generating a read me
 # License
-
-* ${license}
+[MIT License](./LICENSE/MITLicense)
 
 # Contributors
-
-* ${contributors}
-
+    me
+    
 # Tests
-
-* ${test}
-
-# Questions
-
-If you have any questions do not heasitate to reach out!
-
-* ${email}
-
-* ${github}
+    none
+    
+# Questions? Feel Free to reach me at!
+brookelovedevelops@outlook.com |
+[github.com](https://github.com/brookelove)

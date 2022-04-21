@@ -81,7 +81,7 @@ const fs = require('fs');
     let readme = `
 ## ${reponame}
     
-![]()
+[![License](https://img.shields.io/badge/License-${licence}-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
     
 ## Table of Contents
 1. [Description](#descript)
@@ -105,7 +105,7 @@ const fs = require('fs');
 # Usage
     ${usage}
 # License
-    ${license}
+    [${license}](./LICENSE/${license})
 
 # Contributors
     ${contributors}
@@ -114,7 +114,8 @@ const fs = require('fs');
     ${tests}
     
 # Questions? Feel Free to reach me at!
-    ${email} | [github.com](https://github.com/${github})`
+${email} | 
+[github.com](https://github.com/${github})`
 
-    fs.writeFileSync(`./${reponame}.md`, readme)
+    fs.writeFileSync(`./generate/${reponame}.md`, readme)
     })
