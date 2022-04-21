@@ -52,7 +52,7 @@ const fs = require('fs');
             type: 'list',
             message: 'Which licence did you get from github?',
             name: 'license',
-            choices: ['Apache License 2.0', 'GNU General Public License v3.0', 'MIT License', 'BSD 2-Clause "Simplified" License', 'BSD 3-Clause "New" or "Revised" License', 'Boost Software Liscense 1.0', 'Creative Commons Zero v1.0', 'Eclipse Public License 2.0', 'GNU Affero General Public License v3.0', 'GNU General Public License v2.0', 'GNU Lesser General Public License v2.1', 'Mozilla Public License', 'The Unilicense'],
+            choices: ['Apache_2.0', 'GPL_v3.0', 'MIT', 'BSD_2-Clause', 'BSD_3-Clause', 'CC0_v1.0', 'EPL_2.0', 'AGPL_v3.0', 'GPL_v2.0', 'LGPL_v2.1', 'Mozilla', 'Unilicense'],
         },
         {
             type:'input',
