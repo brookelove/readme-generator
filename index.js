@@ -49,6 +49,16 @@ const fs = require('fs');
             name: 'usage',
         },
         {
+            type: 'input',
+            message: 'PLease add in a still image url please',
+            name: 'still',
+        },
+        {
+            type: 'input',
+            message: 'PLease add in a GIF image url please',
+            name: 'GIF',
+        },
+        {
             type: 'list',
             message: 'Which licence did you get from github?',
             name: 'license',
@@ -75,7 +85,7 @@ const fs = require('fs');
             name: 'email',
         }
     ])
-    .then (function ({reponame, description, motivation, install, usage, name, contributors, tests, github, email, license}) {
+    .then (function ({reponame, description, motivation, install, usage, name, contributors, tests, github, email, license, GIF, still}) {
     console.log(reponame, description, motivation, install, usage, name, contributors, tests, github, email, license)
     //remove spaces from this badge so it can generate a page onload
     let readme = `
@@ -92,6 +102,8 @@ const fs = require('fs');
 3. [Installation Instructions](#installation-instructions)
 
 4. [Usage](#usage)
+
+5. [Mock Up](#mock-up)
 
 5. [Liscense](#license)
 
@@ -117,6 +129,12 @@ const fs = require('fs');
 
     ${usage}
 
+# Mock Up
+
+![Image of ${reponame}](${still})
+    
+![Gif of ${reponame}](${GIF})
+
 # License
 
 [${license}](./LICENSE)
@@ -129,11 +147,13 @@ const fs = require('fs');
 
     ${tests}
 
-# Questions? Feel Free to reach me at!
+# Questions? 
+
+Feel Free to reach me at!
 
 ${email} | 
 
-[github.com](https://github.com/${github})`
+[${github} Profile](https://github.com/${github})`
 
     fs.writeFileSync(`${reponame}.md`, readme)
     })
