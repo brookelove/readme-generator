@@ -77,64 +77,44 @@ const fs = require('fs');
     ])
     .then (function ({reponame, description, motivation, install, usage, name, contributors, tests, github, email, license}) {
     console.log(reponame, description, motivation, install, usage, name, contributors, tests, github, email, license)
-    let readme = `## ${reponame}
+    
+    let readme = `
+## ${reponame}
+    
+![]()
+    
+## Table of Contents
+1. [Description](#descript)
+2. [Motivation](#motivation)
+3. [Installation Instructions](#installation-instructions)
+4. [Usage](#usage)
+5. [Liscense](#license)
+6. [Contributors](#contributors)
+7. [Test](#tests)
+8. [Questions](#questions)
+    
+# Description
+    ${description}
 
-    ---
+# Motivation
+    ${motivation}
+
+# Install Instructions
+    ${install}
+
+# Usage
+    ${usage}
+# License
+    ${license}
+
+# Contributors
+    ${contributors}
     
-    ![]()
+# Tests
+    ${tests}
     
-    **Table of Contents**
-    
-    1. [Description](#descript)
-    
-    2. [Motivation](#motivation)
-    
-    3. [Installation Instructions](#installation-instructions)
-    
-    4. [Usage](#usage)
-    
-    5. [Liscense](#license)
-    
-    6. [Contributors](#contributors)
-    
-    7. [Test](#tests)
-    
-    8. [Questions](#questions)
-    
-    # Description
-    
-    > ${description}
-    
-    # Motivation
-    
-    * ${motivation}
-    
-    # Install Instructions
-    
-    * ${install}
-    
-    # Usage
-    
-    * ${usage}
-    
-    # License
-    
-    * ${license}
-    
-    # Contributors
-    
-    * ${contributors}
-    
-    # Tests
-    
-    * ${tests}
-    
-    # Questions
-    
-    If you have any questions do not heasitate to reach out!
-    
-    * ${email}
-    
-    * ${github}`
+# Questions? Feel Free to reach me at!
+    ${email} | [github.com](https://github.com/${github})`
+
     fs.writeFileSync(`./${reponame}.md`, readme)
     })

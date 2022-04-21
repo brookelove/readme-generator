@@ -1,9 +1,8 @@
 ## ${reponame}
 
-
 ![]()
 
-**Table of Contents**
+Table of Contents
 
 1. [Description](#descript)
 
