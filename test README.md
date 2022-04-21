@@ -1,22 +1,26 @@
 ## ${reponame}
 
+---
+
+![]()
+
 **Table of Contents**
 
 1. [Description](#descript)
 
-2. [Motivation]($motivation)
+2. [Motivation](#motivation)
 
-2. [Installation Instructions](#installation-instructions)
+3. [Installation Instructions](#installation-instructions)
 
-3. [Usage](#usage)
+4. [Usage](#usage)
 
-4. [Liscense](#liscense)
+5. [Liscense](#license)
 
-5. [Contributors](#contributors)
+6. [Contributors](#contributors)
 
-6. [Test](#test)
+7. [Test](#tests)
 
-7. [Questions](#questions)
+8. [Questions](#questions)
 
 # Description
 
@@ -34,20 +38,22 @@
 
 * ${usage}
 
-# Liscense
+# License
 
-* ${liscense}
+* ${notice}
 
 # Contributors
 
 * ${contributors}
 
-# Test
+# Tests
 
 * ${test}
 
 # Questions
 
-If you have any questions do not heasitate to ask!
+If you have any questions do not heasitate to reach out!
 
-* ${questions}
+* ${email} 
+
+* ${github}
