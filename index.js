@@ -49,16 +49,6 @@ const fs = require('fs');
             name: 'usage',
         },
         {
-            type: 'input',
-            message: 'PLease add in a still image url please',
-            name: 'still',
-        },
-        {
-            type: 'input',
-            message: 'PLease add in a GIF image url please',
-            name: 'GIF',
-        },
-        {
             type: 'list',
             message: 'Which licence did you get from github?',
             name: 'license',
@@ -86,8 +76,8 @@ const fs = require('fs');
         }
     ])
     .then (function ({reponame, description, motivation, install, usage, name, contributors, tests, github, email, license, GIF, still}) {
-    console.log(reponame, description, motivation, install, usage, name, contributors, tests, github, email, license)
-    //remove spaces from this badge so it can generate a page onload
+    // console.log(reponame, description, motivation, install, usage, name, contributors, tests, github, email, license)
+        console.log('generating your markdown...')
     let readme = `
 ## ${reponame}
 
