@@ -14,9 +14,9 @@
 
 6.[Future](#future)
 
-6. [Liscense](#license)
+7. [Liscense](#license)
 
-7. [Questions](#questions)
+8. [Questions](#questions)
 
 # Description
 
@@ -45,7 +45,7 @@ In order to use this readme generator you would have to...
 
 NOTE: if your liscence is not located on the same level as the .md file it will nor link properly! Please make sure that they are both on the same level. It also should be noted that it does take a second for your GIF and image to load onto the read me! If ther eis anything that you did not need please remove.
 
-> I have included an exapmple read me to see what your outut should look like!
+> 📑 I have included an example read me to see what your outut should look like! [Example](Example.md)
 
 # Usage
 
