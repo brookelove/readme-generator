@@ -49,6 +49,16 @@ const fs = require('fs');
             name: 'usage',
         },
         {
+            type: 'input',
+            message: 'Please add in a still image url please',
+            name: 'still',
+        },
+        {
+            type: 'input',
+            message: 'Please add in a GIF image url please',
+            name: 'GIF',
+        },
+        {
             type: 'list',
             message: 'Which licence did you get from github?',
             name: 'license',

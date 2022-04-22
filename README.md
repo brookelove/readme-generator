@@ -41,7 +41,9 @@ In order to use this readme generator you would have to...
 
 5. It will then generate a read me
 
-NOTE: if your liscence is not located on the same level as the .md file it will nor link properly! Please make sure that they are both on the same level.
+NOTE: if your liscence is not located on the same level as the .md file it will nor link properly! Please make sure that they are both on the same level. It also should be noted that it does take a second for your GIF and image to load onto the read me!
+
+> I have included an exapmple read me to see what your outut should look like!
 
 # Usage
 
