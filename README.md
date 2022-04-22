@@ -12,6 +12,8 @@
 
 5. [Mock Up](#mock-up)
 
+6.[Future](#future)
+
 6. [Liscense](#license)
 
 7. [Questions](#questions)
@@ -41,7 +43,7 @@ In order to use this readme generator you would have to...
 
 5. It will then generate a read me
 
-NOTE: if your liscence is not located on the same level as the .md file it will nor link properly! Please make sure that they are both on the same level. It also should be noted that it does take a second for your GIF and image to load onto the read me!
+NOTE: if your liscence is not located on the same level as the .md file it will nor link properly! Please make sure that they are both on the same level. It also should be noted that it does take a second for your GIF and image to load onto the read me! If ther eis anything that you did not need please remove.
 
 > I have included an exapmple read me to see what your outut should look like!
 
@@ -53,9 +55,12 @@ NOTE: if your liscence is not located on the same level as the .md file it will 
 
 ![Image of ${reponame}](./assets/stillimage.png)
 
-
 I have included a demo link to this mock up [here](https://drive.google.com/file/d/1mI7fn2DPPsW7cYRJdx1vKf_0m0nEn8tI/view 
 )
+
+# Future
+
+    I think in the future I would like to add options where the user is prompted to ask yes or no if they would want to include certain areas which would be more interactive.
 
 # License
 

@@ -15,29 +15,31 @@
 
 5. [Mock Up](#mock-up)
 
-5. [Liscense](#license)
+6. [Future](#future)
 
-6. [Contributors](#contributors)
+7. [Liscense](#license)
 
-7. [Test](#tests)
+8. [Contributors](#contributors)
 
-8. [Questions](#questions)
+9. [Test](#tests)
+
+10. [Questions](#questions)
 
 # Description
 
-    I wanted to make an example markdown because it shows what the basic output looks like before you download. 
+    This is an example read me to show you how everything looks all done!
 
 # Motivation
 
-    In this program you will need to download inquirer as well as use a terminal or terminal equivalent program to run the commands 
+    I wanted to make an example markdown because it shows what the basic output looks like before you download. 
 
 # Install Instructions
 
-    I intend to use this app to generate readme markdowns for future use. 
+    In this program you will need to download inquirer as well as use a terminal or terminal equivalent program to run the commands 
 
 # Usage
 
-    I intend to use this app to generate readme markdowns for future use. 
+    I intend to use this app to generate readme markdowns for future use in my software development use
 
 # Mock Up
 
@@ -45,17 +47,21 @@
     
 ![Gif of Example](https://media.giphy.com/media/fnlXXGImVWB0RYWWQj/giphy.gif)
 
+# Future
+
+    I would make more readme ’s
+
 # License
 
 [MIT](./LICENSE)
 
 # Contributors
 
-    N/A
+    There were none to contribute
 
 # Tests
 
-    N/A
+    None to run
 
 # Questions? 
 

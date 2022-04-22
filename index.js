@@ -59,6 +59,11 @@ const fs = require('fs');
             name: 'GIF',
         },
         {
+            type: 'input',
+            message: 'What are you goals in the future for this project?',
+            name: 'future',
+        },
+        {
             type: 'list',
             message: 'Which licence did you get from github?',
             name: 'license',
@@ -85,7 +90,7 @@ const fs = require('fs');
             name: 'email',
         }
     ])
-    .then (function ({reponame, description, motivation, install, usage, name, contributors, tests, github, email, license, GIF, still}) {
+    .then (function ({reponame, description, motivation, install, usage, name, contributors, tests, github, email, license, GIF, still, future}) {
     // console.log(reponame, description, motivation, install, usage, name, contributors, tests, github, email, license)
         console.log('generating your markdown...')
     let readme = `
@@ -105,13 +110,15 @@ const fs = require('fs');
 
 5. [Mock Up](#mock-up)
 
-5. [Liscense](#license)
+6. [Future](#future)
 
-6. [Contributors](#contributors)
+7. [Liscense](#license)
 
-7. [Test](#tests)
+8. [Contributors](#contributors)
 
-8. [Questions](#questions)
+9. [Test](#tests)
+
+10. [Questions](#questions)
 
 # Description
 
@@ -134,6 +141,10 @@ const fs = require('fs');
 ![Image of ${reponame}](${still})
     
 ![Gif of ${reponame}](${GIF})
+
+# Future
+
+    ${future}
 
 # License
 
