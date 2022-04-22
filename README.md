@@ -51,9 +51,11 @@ NOTE: if your liscence is not located on the same level as the .md file it will 
 
 # Mock Up
 
-![Image of ${reponame}](${still}.image (path=path, size='300x200', align='center'))
+![Image of ${reponame}](./assets/stillimage.png)
 
-![Gif of ${reponame}](${GIF})
+
+I have included a demo link to this mock up [here](https://drive.google.com/file/d/1mI7fn2DPPsW7cYRJdx1vKf_0m0nEn8tI/view 
+)
 
 # License
 
