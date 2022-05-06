@@ -139,7 +139,7 @@ const fs = require('fs');
 # Mock Up
 
 ![Image of ${reponame}](${still})
-    
+
 ![Gif of ${reponame}](${GIF})
 
 # Future
@@ -158,13 +158,13 @@ const fs = require('fs');
 
     ${tests}
 
-# Questions? 
+# Questions?
 
 Feel Free to reach me at!
 
-${email} | 
+* ${email}
 
-[${github} Profile](https://github.com/${github})`
+* [${github} Profile](https://github.com/${github})`
 
     fs.writeFileSync(`${reponame}.md`, readme)
     })
